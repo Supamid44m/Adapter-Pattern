@@ -8,6 +8,7 @@ public class AdapterDemo {
         System.out.println("ADAPTER basktetball");
         System.out.println(" ");
         BasketballAdapter bas2 = new BasketballAdapter(new ThreeThreeBasketball());
+        
         bas2.showinfo();
     }
 }
