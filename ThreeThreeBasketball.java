@@ -3,10 +3,10 @@ public class ThreeThreeBasketball {
   
     private final String courtsize= "15m wide x 11m long";
     private final  int player = 3 ;
-    private int hoophigh;
-    private int basketballsize;
-    private int quatermin;
-    private int foulLimit;
+    private int hoophigh = 305 ;
+    private int basketballsize= 7;
+    private int quatermin=3;
+    private int foulLimit=6;
 
     public ThreeThreeBasketball(){
         System.out.println("3x3 Basketball");

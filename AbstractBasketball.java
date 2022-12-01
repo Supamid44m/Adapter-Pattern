@@ -1,6 +1,6 @@
 public  abstract class AbstractBasketball implements Basketball {
     
-    private int player = 5;
+    private final int player = 5;
     private int hoophigh;
     private int basketballsize;
     private int quatermin;
